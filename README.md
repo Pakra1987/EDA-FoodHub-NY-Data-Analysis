@@ -15,3 +15,16 @@ The app allows the restaurants to receive a direct online order from a customer.
 7. rating: Rating given by the customer out of 5
 8. food_preparation_time: Time (in minutes) taken by the restaurant to prepare the food. This is calculated by taking the difference between the timestamps of the restaurant's order confirmation and the delivery person's pick-up confirmation.
 9. delivery_time: Time (in minutes) taken by the delivery person to deliver the food package. This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information
+
+**Conclusions from the data analysis**:
+1. Delivery time significantly increases during the weekday
+2. The number of orders is more than 2x in the weekend compared to the weekday
+3. The top 10 restaurants in terms of order volume contribute to 46.0 % of the total order amount
+4. Food preparation or Delivery time bears no such effect on the cuisine or restaurant selected for ordering
+5. Food preparation time and Food delivery time have a slight negative impact on Rating as the correlation is negative, but the correlation is quite weak
+6. The top 5 cuisines ordered does not change much between weekday to weekend. The top five cuisines are American, Japanese, Italian, Chinese, and Mexican
+7. The ticket size of the orders (order amount/#order) is the highest for French cuisine and lowest for Vietnamese cuisine
+8. The ratings are quite similar across the different cuisines. But Spanish has the highest average rating, closely followed by Thai and Indian cuisines
+
+**Recommendations**:
+1. Recommend FoodHub to provide discounts to customers based on the Total order amount and not on #orders. There can be a condition applied on the minimum number of orders (say 5) to be eligible for the discount.
